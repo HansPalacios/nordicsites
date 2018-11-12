@@ -1,0 +1,29 @@
+<div class="container-fluid no-gutters pages" id="footer">
+
+	<div class="row">
+		<div class="logo">
+			<%= image_tag image_url('https://s3.amazonaws.com/nordicsites/Nordiclogolines2.png') %>
+		</div>
+	</div>
+
+	<div class="socialmedia row">
+		<%= link_to href: 'http://www.example.com/' do %>
+    	<%= image_tag image_url('https://s3.amazonaws.com/nordicsites/blfb.png') %>
+		<% end %>
+		<%= link_to href: 'https://www.instagram.com/nordicsites/' do %>
+    	<%= image_tag image_url('https://s3.amazonaws.com/nordicsites/blinsta.png') %>
+		<% end %>
+		<%= link_to href: 'http://www.example.com/' do %>
+    	<%= image_tag image_url('https://s3.amazonaws.com/nordicsites/blyt2.png') %>
+		<% end %>
+
+	</div>
+
+	<div class="row">
+		<p><%= link_to "About Us", "/about"%></p>
+		<p><%= link_to "Services", "/services"%></p>
+		<p><%= link_to "Contact", "/contact"%></p>
+		<p><%= link_to "Privacy Policy", "/privacy"%></p>
+	</div>
+
+</div>

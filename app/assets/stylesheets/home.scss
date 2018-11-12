@@ -1,0 +1,62 @@
+.logo {
+		margin: 0 auto;
+		height: auto;
+		width: 60%;
+		img {
+			width: 100%;
+		}
+	}
+	#home {
+	position: relative;
+	min-height: 100%;
+	
+	p {
+		width: 100%;
+		text-align: center;
+		margin: 20px auto;
+	}
+}
+
+
+
+
+#home2 {
+	height: 100%;
+}
+
+
+
+
+#footer {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+  background-color: white;
+	p, p a {
+		margin: 5px auto;
+		text-align: center;
+		font-size: 10px;
+		width: 100%;
+	}
+	h5 {
+		text-align: center;
+		display: inline-block;
+		margin: 1px auto;
+		text-align: center;
+	}
+	.logo {
+		width: 40%;
+	}
+	.socialmedia {
+		text-align: center;
+		width: 60%;
+		margin: 20px auto;
+		a, img {
+			width: 33%;
+			margin: 0 auto;
+		}
+	}
+}
+.pages {
+	box-shadow: 0px -5px 20px -5px rgba(0,0,0,.1);
+}
