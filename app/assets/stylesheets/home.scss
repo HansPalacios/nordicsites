@@ -15,6 +15,15 @@
 		text-align: center;
 		margin: 20px auto;
 	}
+	.links {
+		a {
+			font-weight: 300;
+			padding: 10px;
+			&:hover {
+			 font-weight: 900; 
+			}
+		}
+	}
 }
 
 
@@ -22,6 +31,7 @@
 
 #home2 {
 	height: 100%;
+
 }
 
 
